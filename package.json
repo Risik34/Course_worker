@@ -1,0 +1,14 @@
+{
+  "name": "courseworker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.20.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev --local",
+    "deploy": "wrangler publish",
+    "start-persist": "wrangler dev --local --persist-to ./data",
+    "replit-run-command": "npm run start"
+  }
+}
