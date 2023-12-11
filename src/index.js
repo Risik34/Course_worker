@@ -67,7 +67,7 @@ const authConfig = {
 const crypto_base_key = "a4affcad11ea4c7f696e63edaf92095e" // Example 256 bit key used.
 const encrypt_iv = new Uint8Array([38,100,240,76,189,111,227,246,178,254,115,201,91,244,245,171]); // Example 128 bit IV used.
 const uiConfig = {
-  "theme": "darkly", // switch between themes, default set to slate, select from https://gitlab.com/GoogleDriveIndex/Google-Drive-Index
+  "theme": "superhero", // switch between themes, default set to slate, select from https://gitlab.com/GoogleDriveIndex/Google-Drive-Index
   "version": "2.3.6", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
   // If you're using Image then set to true, If you want text then set it to false
   "logo_image": true, // true if you're using image link in next option.
@@ -75,7 +75,7 @@ const uiConfig = {
   "logo_width": "30px", // only if logo_image is true
   "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/favicon.ico",
   // if logo is true then link otherwise just text for name
-  "logo_link_name": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTokqns1FFqvGDzvjFx_Bur_2BfSitwujcdtA&usqp=CAU",
+  "logo_link_name": "https://img.icons8.com/fluency/48/nextcloud.png",
   "login_image": "https://i.imgur.com/5fHELJr.png", // Login page logo image
   "fixed_header": true, // If you want the footer to be flexible or fixed.
   "header_padding": "80", // Value 80 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
